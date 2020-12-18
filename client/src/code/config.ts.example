@@ -1,0 +1,9 @@
+interface IConfig {
+    serverAddress: string,
+    userEmail: string
+}
+
+export const config: IConfig = {
+    serverAddress: ``,
+    userEmail: ``
+};
